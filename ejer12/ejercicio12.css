@@ -1,0 +1,39 @@
+
+p.cabecera{
+
+color: rgb(133, 11, 11);
+
+}
+ .cabecera{
+
+color: grey;
+
+}
+
+
+p.contenido{
+
+color:rgb(125, 196, 32);
+
+
+}
+.contenido{
+
+color:greenyellow;
+
+
+}
+
+
+p.footer{
+
+color:rgb(8, 7, 5);
+
+
+}
+.footer{
+
+color:blueviolet;
+
+
+}
