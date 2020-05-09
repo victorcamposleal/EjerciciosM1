@@ -1,0 +1,35 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(216, 122, 185);
+    padding-top: 10px;
+    padding-right: 36px;
+    padding-bottom: 10px;
+    padding-left: 36px;
+    align-items: center;
+}
+
+.titulos{
+    color:green;
+    width: 50%;
+}
+
+.listas{
+    background-color:seagreen;
+    color: rgb(216, 122, 185);
+    border: 15px;
+    border-radius: 15px;
+    padding: 15px;
+    text-align: justify;
+
+
+  
+}
+.listas ul{
+
+    list-style:none;
+    padding: 0px;
+
+}
+

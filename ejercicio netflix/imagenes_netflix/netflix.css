@@ -1,0 +1,298 @@
+
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+
+}
+
+body{
+    background-color: black;
+}
+header{
+
+    background-image:url("series.jpg") ;
+    background-size: cover;
+    padding-bottom: 100px;
+    width:100%;
+    border-bottom: 5px solid gray;
+}
+.logonetflix{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.logonetflix h1{
+color:white;
+background-color: tomato;
+border-radius: 5px;
+padding:15px;
+font-size: 12px;
+margin-right:5%;
+
+}
+
+.logonetflix img{
+
+    height: 30px;
+    padding:20px;
+}
+.netflixintro{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.netflixintro h1{
+
+    width: 50%;
+    font-size: 50px;
+    margin-bottom:15px;
+}
+
+.netflixintro h2{
+    font-size: 30px;
+    margin-top: 0px;
+}
+
+.correo{
+    display: flex;
+    flex-direction: row;
+    color:white;
+    justify-content: center;
+}
+.blanco{
+    color:gray;
+    background:white;
+    padding-right: 350px;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+
+
+
+.rojo{
+    color:white;
+    background-color: tomato;
+    padding:0 50px;
+    text-transform: uppercase;
+    font-size:20px;
+
+
+}
+
+.correofrase{
+color:white;
+font-size:25px;
+text-align: center;
+
+}
+/*hr{
+    color:gray;
+    size:8px;
+    margin:0;
+    border-radius: 5px;
+    height:8px;
+    background-color: gray;
+
+}*/
+
+.seccion1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 5px solid gray;
+}
+
+.frasesec1{
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    padding-right: 15px;
+    margin-right:15px;
+
+}
+
+
+
+.frasesec1 h1{
+    color: white;
+    font-size: 60px;
+    margin-right: 10px;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   margin-bottom: 0px;
+
+}
+
+
+.frasesec1 h2{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+
+
+.seccion2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 5px solid gray;
+}
+
+.seccion2 img{
+  box-sizing: border-box;
+
+
+}
+
+.frasesec2{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    padding-right: 20px;
+box-sizing: border-box;
+width: 32%;
+height: 100%;
+margin-right:50px;
+
+    
+
+}
+
+
+
+.frasesec2 h1{
+    color: white;
+    font-size: 60px;
+    margin-bottom: 0px;
+
+}
+
+
+.frasesec2 h2{
+    color: white;
+    font-size: 25px;
+ 
+}
+
+
+.seccion3{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+margin-right: 0px;
+border-bottom: 5px solid gray;
+
+}
+.frasesec3{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    width: 35%;
+    text-align: left;
+    margin-right:15px;
+    box-sizing: border-box;
+    
+ 
+
+
+}
+
+.frasesec3 h1{
+    font-size: 60px;
+    margin-bottom: 0px;
+
+}
+
+
+.frasesec3 h2{
+    font-size: 25px;
+
+
+}
+
+
+.seccion3 img{
+    box-sizing: border-box;
+  
+  
+  }
+
+  .seccion4{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom:5px solid gray;
+
+}
+.seccion4 h1{
+    color:white;
+    font-size: 80px;
+
+}
+.parrafossec4{
+
+    color: white;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: left;
+    background-attachment: black;
+ padding-left: 30px;
+  width: 100%;
+}
+
+.parrafossec4 li{
+    background-color: gray;
+    margin-top: 10px;
+    list-style: none;
+    padding:15px;
+    font-size: 30px;
+
+}
+
+footer{
+display: flex;
+flex-direction: column;
+align-items: center;
+color:grey;
+box-sizing: border-box;
+text-align: left;
+padding-top: 10px;
+
+}
+.listas
+{
+    display: flex;
+    flex-direction: row;
+    padding:10px
+ 
+}
+.listas ul
+{
+list-style: none;
+text-transform: initial;
+font-size: 10px;
+}
+
+.listas li{
+    margin-bottom: 10px;
+
+}
+.titulofoot
+{
+    padding-right: 15%;
+}

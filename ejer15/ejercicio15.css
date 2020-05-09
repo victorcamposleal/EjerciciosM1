@@ -1,0 +1,38 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(53, 33, 124);
+    padding-top: 10px;
+    padding-right: 36px;
+    padding-bottom: 10px;
+    padding-left: 36px;
+    align-items: center;
+}
+
+
+a {
+    color: white;
+    text-decoration:none;
+    padding:10px;
+    text-transform: uppercase;
+
+}
+.titulos{
+    display: flex;
+    flex-direction:column;
+    justify-content:start;
+    text-align: right;
+    color: white;
+
+}
+
+.titulos h5{
+margin-top: 0px;
+
+}
+
+.titulos h1{
+    margin-bottom: 0px;
+    
+    }

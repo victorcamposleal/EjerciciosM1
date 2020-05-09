@@ -1,0 +1,202 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:white;
+    padding-top: 10px;
+    padding-right: 36px;
+    padding-bottom: 10px;
+    padding-left: 36px;
+    align-items: center;
+    border:white;
+    border-bottom: grey;
+    border-style: solid;
+   
+}
+
+.titulos{
+
+    color: green;
+    display: flex;
+    flex-direction: column;
+align-items: right;
+}
+
+.titulos h1 {
+    
+    margin-bottom: 5px;
+}
+.titulos p{
+    margin-top: 5px;
+}
+.navegador ul{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(165, 26, 26);
+    color: white;
+    border: 15px;
+    border-radius: 15px;
+    text-decoration: none;
+    padding: 10px;
+    list-style: none;
+    
+}
+.navegador a{
+    text-decoration: none;
+    padding:30px;
+    color: white;
+}
+
+
+.lema div{
+box-shadow: gray;
+
+}
+.lema{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border:white;
+    border-bottom: grey;
+    border-style: solid;
+}
+
+
+.lema p{
+    font-style: italic;
+    color: gray;
+    font-size: 40px;
+    text-align: center;
+
+
+}
+.lema img{
+width:100%;
+padding: 10px;
+}
+
+.servicios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border:white;
+    border-bottom: grey;
+    border-style: solid;
+    }
+    .contents{
+        background-color: tomato;
+        color:white;
+        padding: 10px;
+        border-radius: 11px;
+        text-transform: uppercase;
+        
+    }
+.servicios2{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+   
+    
+    }
+
+    .servicios2 p{
+        width: 65%;
+
+    }
+
+.tituloserv{
+    display: flex;
+    flex-direction:row;
+color: gray;
+text-transform: capitalize;
+padding: 10px;
+ 
+}
+
+.servicioreadmore{
+
+    text-transform: capitalize;
+    color:red;
+    margin-top: 0px;
+
+}
+
+.players
+{ display: flex;
+ flex-direction: column;
+ align-items: center;;
+ border:white;
+    border-bottom: grey;
+    border-style: solid;
+}
+
+.players2{ 
+    display: flex;
+    flex-direction: row;
+    color:gray;
+
+}
+
+.tituloplayers p{
+
+    text-transform: capitalize;
+
+
+}
+
+
+.tituloplayers{
+
+width:25%;
+}
+
+.tituloplayers img{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    width:90%
+
+
+}
+
+.playersprofile{
+    text-transform: capitalize;
+    color:red;
+}
+
+.workimage{
+display:flex;
+width:100%;
+}
+.works{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.worki1{
+
+    width: 100%;
+
+}
+.worki1 img{
+    margin-left: 25%;
+    
+}
+footer{
+
+    display: flex;
+    flex-direction: row;
+    background-color: grey;
+
+}
+.latestfromblog2{
+
+    display: flex;
+    flex-direction: row;
+    background-color: grey;
+
+
+}
